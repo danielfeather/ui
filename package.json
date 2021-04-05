@@ -1,0 +1,19 @@
+{
+  "name": "ui",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielfeather/ui.git"
+  },
+  "author": "Daniel Feather <danielfeather@users.noreply.github.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielfeather/ui/issues"
+  },
+  "homepage": "https://github.com/danielfeather/ui#readme"
+}
