@@ -1,6 +1,6 @@
 {
-  "name": "ui",
-  "version": "0.0.0",
+  "name": "@danielfeather/ui",
+  "version": "0.0.1",
   "description": "A collection of Vue 3 components for my personal projects ",
   "main": "index.js",
   "scripts": {
@@ -8,6 +8,9 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
+  "files": [
+    "dist"
+  ],
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
   "man": "dist/index.js",
