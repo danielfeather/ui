@@ -1,15 +1,15 @@
 {
   "compilerOptions": {
-    "outDir": "./dist/",
-    "noImplicitAny": true,
-    "module": "commonjs",
-    "target": "es5",
+    "target": "esnext",
+    "module": "esnext",
+    "strict": true,
+    "jsx": "preserve",
+    "moduleResolution": "node",
     "declaration": true,
-    "emitDeclarationOnly": true,
-    "sourceMap": true
+    "outDir": "./dist"
   },
   "exclude": [
     "node_modules",
-    "./src"
+    "**/*.stories.ts"
   ]
 }

@@ -1,5 +1,8 @@
 module.exports = {
-  purge: [],
+  purge: [
+    './src/**/*.vue',
+    './src/**/*.mdx'
+  ],
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {},
