@@ -13,7 +13,7 @@
     "dist"
   ],
   "module": "dist/ui.common.js",
-  "types": "dist/index.d.ts",
+  "types": "src/types/index.d.ts",
   "man": "dist/index.js",
   "repository": {
     "type": "git",
@@ -41,8 +41,5 @@
   },
   "peerDependencies": {
     "vue": "^3.x.x"
-  },
-  "dependencies": {
-    "vue": "^3.0.11"
   }
 }

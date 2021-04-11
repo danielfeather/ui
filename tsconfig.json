@@ -12,7 +12,6 @@
     "sourceMap": true,
     "baseUrl": ".",
     "declaration": true,
-    "outDir": "dist",
     "paths": {
       "@/*": [
         "src/*"
@@ -31,6 +30,9 @@
     "src/**/*.vue",
     "tests/**/*.ts",
     "tests/**/*.tsx"
+  ],
+  "files": [
+    "src/shims-vue.d.ts"
   ],
   "exclude": [
     "node_modules",
