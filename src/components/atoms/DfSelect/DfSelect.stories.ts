@@ -25,3 +25,9 @@ export const Single = Template.bind({});
 Single.args = {
   options: ['Option 1', 'Option 2', 'Option 3']
 }
+
+export const Multiple = Template.bind({});
+Multiple.args = {
+  multiple: true,
+  options: ['Option 1', 'Option 2', 'Option 3']
+}
